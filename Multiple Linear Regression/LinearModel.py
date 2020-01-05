@@ -5,7 +5,6 @@ Created on Fri Jan  3 11:52:46 2020
 
 @author: safak
 """
-#%%
 import numpy as np
 import matplotlib.pyplot as plt
 class Linear_Regression(object): # add dataframe to calculate statistical paramteres (varicance,standard deviation...)
