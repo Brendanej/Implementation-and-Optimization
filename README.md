@@ -15,19 +15,19 @@ sys.path.append('/home/safak/Desktop/PerceptronClassifier')
 
 ## Current Algorithms
 
-⋅⋅* Multiple Linear Regression
+- Multiple Linear Regression
 
-⋅⋅* Perceptron Classifier
+- Perceptron Classifier
 
 ## References
 
-⋅⋅* Neural Networks and Deep Learning, Charu C. Aggarwal, Springer Publishing
+- Neural Networks and Deep Learning, Charu C. Aggarwal, Springer Publishing
 
-⋅⋅* Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville, MIT Press
+- Deep Learning, Ian Goodfellow, Yoshua Bengio, Aaron Courville, MIT Press
 
-⋅⋅* Elements of Statistical Learning, Trevor Hastie, Robert Tibshirani, Jerome H. Friedman, Springer Publishing
+- Elements of Statistical Learning, Trevor Hastie, Robert Tibshirani, Jerome H. Friedman, Springer Publishing
 
-⋅⋅* Introduction to Machine Learning, Ethem Alpaydin, MIT Press
+- Introduction to Machine Learning, Ethem Alpaydin, MIT Press
 
 ## License
 
