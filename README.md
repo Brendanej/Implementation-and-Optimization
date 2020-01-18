@@ -19,6 +19,8 @@ sys.path.append('/home/safak/Desktop/PerceptronClassifier')
 
 - Perceptron Classifier
 
+- Logistic Regression
+
 ## References
 
 - Neural Networks and Deep Learning, Charu C. Aggarwal, Springer Publishing
