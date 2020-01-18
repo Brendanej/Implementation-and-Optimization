@@ -10,11 +10,9 @@ Created on Fri Jan 17 16:43:01 2020
 if __name__ == "__main__":
     import sys
     sys.path.append('/home/safak/Desktop/PerceptronClassifier')
-    import pandas as pd
     from PerceptronClassifier import Perceptron
     import numpy as np
     import pandas as pd
-    from random import shuffle
     import matplotlib.pyplot as plt
     
     """
