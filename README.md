@@ -31,6 +31,8 @@ sys.path.append('/home/safak/Desktop/PerceptronClassifier')
 
 - Introduction to Machine Learning, Ethem Alpaydin, MIT Press
 
+- Principal Component Analysis
+
 ## License
 
 Developed by Şafak Bilici.
