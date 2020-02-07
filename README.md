@@ -21,6 +21,8 @@ sys.path.append('/home/safak/Desktop/PerceptronClassifier')
 
 - Logistic Regression
 
+- Principal Component Analysis
+
 ## References
 
 - Neural Networks and Deep Learning, Charu C. Aggarwal, Springer Publishing
@@ -30,8 +32,6 @@ sys.path.append('/home/safak/Desktop/PerceptronClassifier')
 - Elements of Statistical Learning, Trevor Hastie, Robert Tibshirani, Jerome H. Friedman, Springer Publishing
 
 - Introduction to Machine Learning, Ethem Alpaydin, MIT Press
-
-- Principal Component Analysis
 
 ## License
 
