@@ -6,7 +6,8 @@ The goal of this Repository is increasing the number of algorthms and adding the
 
 ## Usage
 
-Change the code in main.py file:
+Change the code in main.py.
+Example:
 ```python
 import sys
 sys.path.append('/home/safak/Desktop/PerceptronClassifier')
