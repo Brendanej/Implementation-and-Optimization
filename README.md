@@ -42,5 +42,7 @@ sys.path.append('/where-is-downloaded-file')
 
 ## License
 Copyright (C) 2019 Şafak Bilici
-Aim of this repository is to developing and implementing algorithms and optimizations.
-Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed. 
+
+- Aim of this repository is to developing and implementing algorithms and optimizations.
+
+- Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed. 
