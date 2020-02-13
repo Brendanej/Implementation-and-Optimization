@@ -7,6 +7,7 @@ The goal of this Repository is increasing the number of algorthms and adding the
 ## Usage
 
 Change the code in main.py with your path.
+
 Example:
 ```python
 import sys
