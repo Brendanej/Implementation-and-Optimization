@@ -2,7 +2,7 @@
 
 This Repository contains some Machine Learning and Deep Learning algorithms. Algorithms are not written in any learning libraries. 
 
-The goal of this Repository is increasing the number of algorthms and adding them Mathematical, Statistical, intuitive etc. Optimizations and showing the mathematical modelings for the lecture of mine at Yıldız Technical University that is"Introduction to Machine Learning".
+The goal of this Repository is increasing the number of algorthms; adding them Mathematical, Statistical, intuitive etc. Optimizations and showing the mathematical modelings for the lecture of mine at Yıldız Technical University that is"Introduction to Machine Learning".
 
 ## Usage
 
