@@ -30,6 +30,8 @@ sys.path.append('/where-is-downloaded-file')
 
 - Principal Component Analysis
 
+- k-Nearest Neighbors Classifier
+
 ## References
 
 - Neural Networks and Deep Learning, Charu C. Aggarwal, Springer Publishing
