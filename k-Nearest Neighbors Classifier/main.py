@@ -13,6 +13,14 @@ import matplotlib.pyplot as plt
 import sklearn.datasets
 
 class KNN(object):
+
+    """
+    This algorithm based on this motto: 
+
+    'TELL ME ABOUT YOUR FRIEND 
+    AND I WILL TELL YOU WHO YOU ARE'
+
+    """
     
     def __init__(self,x,y,K):
         
