@@ -53,4 +53,4 @@ Copyright (C) 2019 Şafak Bilici
 
 <img src="https://scontent.fist7-1.fna.fbcdn.net/v/t1.0-9/80058782_2841318449253666_642582521149652992_n.jpg?_nc_cat=111&_nc_sid=110474&_nc_ohc=g0vxWQQP7ZQAX9M50_E&_nc_ht=scontent.fist7-1.fna&oh=a55ee044ae8e6e71910197c67ae841df&oe=5E9A3216"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="float: left; margin-right: 5px;" />
