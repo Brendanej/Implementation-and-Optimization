@@ -37,7 +37,7 @@ class Dice(object):
                 rolled_dice[i,rolled_dice.shape[1] - 1] = sum_of/(rolled_dice.shape[1] - 1)
         return rolled_dice
         
-    def PDF(self,y):
+    def getPDF(self,y):
         fig = plt.figure(figsize=(10,10))
         sns.distplot(y)
         plt.xlabel('X')
@@ -59,5 +59,5 @@ if __name__ == "__main__":
 
    y = rolled_dice[:,N_ROLL]
    
-   experiment.PDF(y)
+   experiment.getPDF(y)
     
