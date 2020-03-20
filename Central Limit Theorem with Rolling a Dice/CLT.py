@@ -19,7 +19,7 @@ class Dice(object):
     def __init__(self,seedn):
         self.seed = seed(seedn)
                 
-    def Roll(self,n_sample,n_rolled):
+    def roll(self,n_sample,n_rolled):
         self.rolled_dices_sample = np.zeros((n_sample,n_rolled+1))
         self.seed
         for i in range(n_sample):
@@ -35,8 +35,16 @@ class Dice(object):
             for j in range(rolled_dice.shape[1] - 1):
                 sum_of = sum_of+rolled_dice[i,j]
                 rolled_dice[i,rolled_dice.shape[1] - 1] = sum_of/(rolled_dice.shape[1] - 1)
-        return rolled_dice        
-
+        return rolled_dice
+        
+    def PDF(self,y):
+        fig = plt.figure(figsize=(10,10))
+        sns.distplot(y)
+        plt.xlabel('X')
+        plt.ylabel('p(x|y;g(\u03B8))')
+        plt.title('The Estimator is the Mean')
+        plt.legend()
+        plt.show()
    
 if __name__ == "__main__":
     
@@ -45,13 +53,11 @@ if __name__ == "__main__":
 
    experiment = Dice(1)
    
-   rolled_dice=experiment.Roll(N_DATA,N_ROLL)
+   rolled_dice=experiment.roll(N_DATA,N_ROLL)
    
    rolled_dice = experiment.meanRoll(rolled_dice)
+
+   y = rolled_dice[:,N_ROLL]
    
-   x = np.zeros(N_DATA)
-   y= rolled_dice[:,N_ROLL]
-   
-   sns.distplot(y)
-   plt.show()
+   experiment.PDF(y)
     
