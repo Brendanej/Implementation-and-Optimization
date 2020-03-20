@@ -32,6 +32,8 @@ sys.path.append('/where-is-downloaded-file')
 
 - k-Nearest Neighbors Classifier
 
+- Central Limit Theorem Example with Rolling a Dice
+
 ## References
 
 - Neural Networks and Deep Learning, Charu C. Aggarwal, Springer Publishing
