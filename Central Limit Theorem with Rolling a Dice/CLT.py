@@ -41,7 +41,7 @@ class Dice(object):
         fig = plt.figure(figsize=(10,10))
         sns.distplot(y)
         plt.xlabel('X')
-        plt.ylabel('p(x|y;g(\u03B8))')
+        plt.ylabel('p(y|x;g(\u03B8))')
         plt.title('The Estimator is the Mean')
         plt.legend()
         plt.show()
