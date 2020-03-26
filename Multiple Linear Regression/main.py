@@ -51,6 +51,8 @@ if __name__ == "__main__":
     data_frame=(data_frame-np.mean(data_frame))/np.std(data_frame)
     
     x=np.array(data_frame.iloc[:,0:5])
+    ones = np.ones(shape=(x.shape[0],1))
+    x = np.concatenate((ones,x),axis=1)
     y=data_frame.iloc[:,5].values
     y.shape = (Sample_Size,1)
     
