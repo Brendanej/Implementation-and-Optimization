@@ -54,6 +54,9 @@ if __name__ == "__main__":
     y= np.array(data_frame["Survived"])
     y.shape = (len(y),1)
     x= np.array(data_frame.iloc[:,1:])
+       
+    ones = np.ones(shape=(x.shape[0],1))
+    x = np.concatenate((ones,x),axis=1)
     
     LogisticRegreesionClassifier = LogisticRegression(x,y,learning_rate,iterations)
     model,metrics_test,metrics_train = LogisticRegreesionClassifier.Train()
