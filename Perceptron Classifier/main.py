@@ -31,6 +31,8 @@ if __name__ == "__main__":
     x = df.iloc[0:100, [0, 2]].values
     y = np.where(y == 'Iris-setosa', 0, 1)
     y.shape=(100,1)
+    ones = np.ones(shape=(x.shape[0],1))
+    x = np.concatenate((ones,x),axis=1)
      
     #%% 
     """
