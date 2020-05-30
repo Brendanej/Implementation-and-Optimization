@@ -16,7 +16,7 @@ sys.path.append('/home/safak/Desktop/PerceptronClassifier')
 to
 ```python
 import sys
-sys.path.append('/where-is-downloaded-file')
+sys.path.append('./PerceptronClassifier')
 ```
 
 
