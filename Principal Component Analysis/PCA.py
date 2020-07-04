@@ -201,5 +201,3 @@ if __name__ == "__main__":
     model= {}
     PCA=PCA(data1,data2)
     model=PCA.PrincipalComponentAnalysis()
-        
-    
